@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"l",
+				"list-style"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"des",
+				"designer"
+			],
+			[
+				"min",
+				"min-height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/header.php",
+			"settings":
+			{
+				"buffer_size": 6588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/bones.php",
+			"settings":
+			{
+				"buffer_size": 11202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 10007,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php get_header()?>\n\n\n<!--<ul id=\"menu\">\n	<li data-menuanchor=\"firstPage\"><a href=\"#firstPage\">First slide</a></li>\n	<li data-menuanchor=\"secondPage\"><a href=\"#secondPage\">Second slide</a></li>\n	<li data-menuanchor=\"3rdPage\"><a href=\"#3rdPage\">Third slide</a></li>\n</ul>-->\n<div id=\"fullpage\">\n	\n	\n\n\n<?php \n\n$posts = get_field('featured_cases');\n$x = 0;\nif( $posts ): ?>\n	<?php foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT) ?>\n	    <div class=\"section\" id=\"section<?php echo $x ?>\">\n		    <video autoplay loop muted id=\"myVideo<?php echo $x ?>\" class=\"videos\">\n				<source src=\"<?php echo get_field('front_page_video_link', $p->ID); ?>\" type=\"video/mp4\">\n			</video>\n			<div class=\"layer\">\n				<div class=\"row\">\n					<div class=\"col-xs-12\">\n						<a class=\"case-study-link\" href=\"<?php echo get_permalink( $p->ID ); ?>\">\n							<div class=\"case-study-title-box\">\n								<h1><?php echo get_field('front_page_title', $p->ID); ?></h1>\n							</div>\n						</a>\n						<p><?php echo get_field('front_page_text', $p->ID); ?></p>\n						<div class=\"view-button\">\n							<a class=\"case-study-link\" href=\"<?php echo get_permalink( $p->ID ); ?>\">View</a>\n						</div>\n					</div>\n				</div>\n			</div>\n			<div class=\"video-overlay\">\n			</div>\n	    </div>\n	<?php \n	$x++;\n	endforeach; ?>\n<?php endif; ?>\n</div>\n<?php get_footer(); ?>",
+			"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/page.php",
+			"file_size": 1350,
+			"file_write_time": 1430141675000000,
+			"settings":
+			{
+				"buffer_size": 1348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/css/iam-style.css",
+			"settings":
+			{
+				"buffer_size": 9210,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/images/newgrad1.svg",
+			"settings":
+			{
+				"buffer_size": 810,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/css/fontkit/altera-demo.html",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/images/exper.svg",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/images/NorthSide3.svg",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/images/NorthSidejase.svg",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/images/NorthSide2.svg",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/examples/examples.css",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/single-case_studies.php",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/css/iam-style.css",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/images/NorthSideOLD.svg",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/footer.php",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/functions.php",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/index.php",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/css/jquery.fullPage.css",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/page.php",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/js/scripts.js",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/indexORG copy.php",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/js/jquery.fullPage.js",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/examples/backgroundVideo.html",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/bones.php",
+		"/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/indexold.php",
+		"/Library/WebServer/Documents/joe/wp-config.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/js/scrollview.js",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/js/scripts.js",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/bones.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/section.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/page.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/header.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/css/sora_style.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/functions.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/library/css/style_durban.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/library/css/style.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/page.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/footer.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/header.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/css/editor-style.css",
+		"/Library/WebServer/Documents/Sorahtml_files/css",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/page-eventsnorefactor.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/page-eventstrytorefactor.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/content-list.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/content.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/archive_old.php",
+		"/Library/WebServer/Documents/Assembly/dorothy/style.css",
+		"/Library/WebServer/Documents/Assembly/dorothy/footer.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"north",
+			"gallery",
+			"opacity",
+			"case-",
+			"overla",
+			"over",
+			"ove",
+			"li\n",
+			"gallery\n",
+			"};\n",
+			"'jquery'",
+			"jquery",
+			"ui",
+			"     ",
+			"jQ",
+			"logo\n",
+			"#logo\n",
+			"emp\n",
+			"fixed\n",
+			"}\n",
+			"before",
+			"after",
+			"settings",
+			"aferMove:",
+			"aferMove",
+			"afer",
+			"sectionContainer",
+			"after",
+			"afterMove",
+			"page-area",
+			"600",
+			"logo",
+			"//    ",
+			"background",
+			"80px",
+			"fixed",
+			"boot",
+			"header",
+			"nav",
+			"hover",
+			"gal",
+			"sl",
+			"gal",
+			"?>\n",
+			"get",
+			"get_",
+			"get_field",
+			"}",
+			"end",
+			"wp_query",
+			"Event",
+			"Donation"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"page-area-section",
+			"Designer",
+			"Event"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/header.php",
+					"settings":
+					{
+						"buffer_size": 6588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3914,
+								3914
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1591.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/bones.php",
+					"settings":
+					{
+						"buffer_size": 11202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7163,
+								7163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 10007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5382,
+								5353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/page.php",
+					"settings":
+					{
+						"buffer_size": 1348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1303,
+								1303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/css/iam-style.css",
+					"settings":
+					{
+						"buffer_size": 9210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2934,
+								2934
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1712.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Library/WebServer/Documents/joe/wp-content/themes/iamjoe/library/images/newgrad1.svg",
+					"settings":
+					{
+						"buffer_size": 810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								810,
+								810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true
+}

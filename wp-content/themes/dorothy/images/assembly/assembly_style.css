@@ -1,0 +1,133 @@
+body {
+  background: url(images/flowers_pattern_RGB_300x300_repeat.jpg);
+}
+.header-purple-bar {
+  min-height: 58px;
+  background: #672483;
+}
+
+.header-purple-bar .content-area-header-section {
+  width: 960px;
+  margin: auto;
+}
+.header-meta {
+  padding-top: 16px;
+}
+@media screen and (min-width: 981px) {
+
+  .header-title {
+    display: block;
+    clear: both;
+    margin: 30px auto 20px auto;
+  }
+
+  .container {
+    padding-left:80px;
+    padding-right:80px;
+  }
+
+  .nav {
+    background: none;
+    position: relative;
+    display: inline-block;
+    width: 950px;
+    padding: 5px;
+    margin: 20px 0;
+    clear: both;
+    text-align: center;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Sans-serif;
+    font-weight: 400;
+  }
+
+  .nav a {
+    padding: 8px 28px 8px 28px;
+  }
+}
+
+.nav, .nav ul ul {
+  background: none;
+  border-bottom: solid 1px #672483;
+  border-top: solid 1px #672483;
+}
+
+.nav a, .nav a:hover, .nav .current-menu-item > a, .nav .current-menu-ancestor > a, .nav .current_page_item > a, .nav .current_page_ancestor > a {
+  color: #672483;
+}
+
+
+.footer-purple-bar {
+  min-height: 58px;
+  background: #672483;
+}
+.footer, .footer-inner {
+  border: none;
+}
+p.footer-copy {
+  border:none;
+}
+
+.footer-logo {
+  padding-top: 24px;
+  width:82px;
+  margin: auto;
+}
+.footer-logo img {
+  width:100%;
+}
+
+.footer-widget h4 {
+  color:#ffffff;
+}
+.footer-widget h4 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+.footer {
+  color: #fff;
+}
+
+.footer p{
+  color: #fff;
+}
+
+.sign-up-button {
+  border: solid #ffffff 1px;
+  padding: 6px 0;
+  color: #ffffff;
+  max-width: 96px;
+  text-align: center;
+    font-family: 'Montserrat', Sans-serif;
+}
+.sign-up-button a {
+  color: #ffffff;
+    font-family: 'Montserrat', Sans-serif;
+}
+
+p.footer-copy {
+  color: #ffffff;
+}
+
+
+.assembly-pinterest  {
+  background: url('images/assembly/Pinterest.png') no-repeat 0 0 !important;
+}
+
+.assembly-facebook  {
+  background: url('images/assembly/Facebook.png') no-repeat 0 0 !important;
+}
+
+.assembly-twitter  {
+  background: url('images/assembly/Twitter.png') no-repeat 0 0 !important;
+}
+
+
+icons-twitter
+icons-facebook
+icons-pinterest
+
+
+

@@ -1,0 +1,603 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dorothy Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-23 22:17+0800\n"
+"PO-Revision-Date: 2014-06-23 22:17+0800\n"
+"Last-Translator: Andrew Wong <hello@bluchic.com>\n"
+"Language-Team: BluChic <hello@bluchic.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ ace
+#: 404.php:10
+msgid "Error 404 - Not Found"
+msgstr ""
+
+# @ ace
+#: 404.php:15
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:20 content-none.php:12 layouts/page_archives.php:35
+msgid "Archives by month"
+msgstr ""
+
+#: 404.php:26 content-none.php:18 layouts/page_archives.php:41
+msgid "Archives by category"
+msgstr ""
+
+# @ ace
+#: archive.php:9
+msgid "Archive of"
+msgstr ""
+
+# @ ace
+#: archive.php:9
+msgid "category"
+msgstr ""
+
+# @ ace
+#: archive.php:11
+msgid "Posts Tagged"
+msgstr ""
+
+# @ ace
+#: archive.php:13 archive.php:15 archive.php:17
+msgid "archive"
+msgstr ""
+
+# @ ace
+#: archive.php:19
+msgid "Author Archive"
+msgstr ""
+
+# @ ace
+#: archive.php:27 search.php:15
+msgid "bookmark"
+msgstr ""
+
+# @ ace
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments"
+msgstr ""
+
+#: comments.php:14 comments.php:31
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:15 comments.php:32
+msgid "Newer comments"
+msgstr ""
+
+# @ ace
+#: comments.php:19 content-list.php:15 content.php:15
+msgid "0 comment"
+msgstr ""
+
+# @ ace
+#: comments.php:19 content-list.php:15 content.php:15
+msgid "1 Comment"
+msgstr ""
+
+# @ ace
+#: comments.php:19 content-list.php:15 content.php:15
+msgid "% Comments"
+msgstr ""
+
+# @ ace
+#: comments.php:19
+msgid "on"
+msgstr ""
+
+# @ ace
+#: comments.php:24
+msgid "Pingbacks &amp; Trackbacks on"
+msgstr ""
+
+# @ ace
+#: comments.php:42
+msgid "Comments are closed"
+msgstr ""
+
+# @ ace
+#: comments.php:55 comments.php:61 content-list.php:15 content.php:15
+#: layouts/page_sitemap.php:48
+msgid "Comment"
+msgstr ""
+
+#: comments.php:56
+msgid "Leave a Reply"
+msgstr ""
+
+# @ ace
+#: comments.php:57
+#, php-format
+msgid "Leave a reply to %s"
+msgstr ""
+
+#: comments.php:58
+msgid "Cancel reply"
+msgstr ""
+
+# @ ace
+#: comments.php:63
+msgid "Name"
+msgstr ""
+
+# @ ace
+#: comments.php:64 includes/custom_widgets.php:205
+msgid "Email"
+msgstr ""
+
+# @ ace
+#: comments.php:65
+msgid "Website"
+msgstr ""
+
+#: content-list.php:12 content.php:12
+msgid "Date"
+msgstr ""
+
+#: content-list.php:14 content.php:14
+msgid "Filed in"
+msgstr ""
+
+# @ ace
+#: content-none.php:4
+msgid "Not Found"
+msgstr ""
+
+# @ ace
+#: content-none.php:7
+msgid ""
+"You have come to a page that is either not existing or already been removed"
+msgstr ""
+
+#: content.php:36
+msgid "<li class=\"previous\" rel=\"prev\">&laquo; %link</li>"
+msgstr ""
+
+#: content.php:37
+msgid "<li class=\"next\" rel=\"next\">%link &raquo;</li>"
+msgstr ""
+
+# @ ace
+#: footer.php:14
+msgid "Copyright"
+msgstr ""
+
+# @ ace
+#: footer.php:14
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:14
+msgid "Theme designed by BluChic"
+msgstr ""
+
+#: footer.php:14
+msgid "Designed by"
+msgstr ""
+
+#: header.php:31
+msgid "Get Social"
+msgstr ""
+
+# @ ace
+#: search.php:7
+msgid "Searching for"
+msgstr ""
+
+#: includes/ace_options.php:86 includes/modules.php:45
+msgid "Theme Options"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:114
+msgid "General settings"
+msgstr ""
+
+#: includes/ace_options.php:115
+msgid "Colors settings"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:116
+msgid "Extra inputs settings"
+msgstr ""
+
+#: includes/ace_options.php:117
+msgid "Slider settings"
+msgstr ""
+
+#: includes/ace_options.php:118
+msgid "Social media settings"
+msgstr ""
+
+#: includes/ace_options.php:119
+msgid "Entry settings"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:120
+msgid "404 page settings"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:280 includes/ace_options.php:282
+msgid "Upload"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:284
+msgid "Upload an image"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:284
+msgid "and copy-paste the file URL or enter an image URL"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:284
+msgid "(including http://)"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:284
+msgid "Preferable size at"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:284
+msgid "pixel"
+msgstr ""
+
+# @ ace
+#: includes/ace_options.php:319
+msgid "Select"
+msgstr ""
+
+#: includes/ace_theme_customize.php:12
+msgid "Ace: Theme Setup"
+msgstr ""
+
+#: includes/ace_theme_customize.php:25
+msgid "Enable Breadcrumb navigation"
+msgstr ""
+
+#: includes/ace_theme_customize.php:41
+msgid "Use excerpt summary"
+msgstr ""
+
+#: includes/ace_theme_customize.php:57
+msgid "Enable related post"
+msgstr ""
+
+#: includes/ace_theme_customize.php:73
+msgid "Enable feature thumbnail"
+msgstr ""
+
+#: includes/ace_theme_customize.php:89
+msgid "Thumb width"
+msgstr ""
+
+#: includes/ace_theme_customize.php:105
+msgid "Thumb height"
+msgstr ""
+
+#: includes/ace_theme_customize.php:121
+msgid "Favicon"
+msgstr ""
+
+#: includes/ace_theme_customize.php:133
+msgid "Ace: Slider"
+msgstr ""
+
+#: includes/ace_theme_customize.php:146
+msgid "Enable slider"
+msgstr ""
+
+#: includes/ace_theme_customize.php:162
+msgid "Show slider on homepage only"
+msgstr ""
+
+#: includes/ace_theme_customize.php:178
+msgid "Show title"
+msgstr ""
+
+#: includes/ace_theme_customize.php:194 includes/ace_theme_customize.php:217
+msgid "Time pause on each slide"
+msgstr ""
+
+#: includes/ace_theme_customize.php:236
+msgid "Ace: Link Colors"
+msgstr ""
+
+#: includes/ace_theme_customize.php:249
+msgid "Navigation menu background color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:264
+msgid "Link color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:279
+msgid "Link hover color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:290
+msgid "Ace: Button Colors"
+msgstr ""
+
+#: includes/ace_theme_customize.php:303
+msgid "Button background color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:318
+msgid "Button border color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:333
+msgid "Button text color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:348
+msgid "Button hover background color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:363
+msgid "Button hover border color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:378
+msgid "Button hover text color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:388
+msgid "Ace: Headings Colors"
+msgstr ""
+
+#: includes/ace_theme_customize.php:401
+msgid "Heading 1 color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:416
+msgid "Heading 2 color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:431
+msgid "Heading 3 color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:446
+msgid "Heading 4 color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:461
+msgid "Heading 5 color"
+msgstr ""
+
+#: includes/ace_theme_customize.php:476
+msgid "Heading 6 color"
+msgstr ""
+
+#: includes/ace_updates.php:86
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/ace_updates.php:91
+msgid "An unknown error occurred"
+msgstr ""
+
+#: includes/custom_widgets.php:39 includes/custom_widgets.php:201
+msgid "Title"
+msgstr ""
+
+#: includes/custom_widgets.php:43
+msgid "Picture"
+msgstr ""
+
+#: includes/custom_widgets.php:44
+msgid "Please upload image via Media -> Add New and get the image file URL"
+msgstr ""
+
+#: includes/custom_widgets.php:48
+msgid "Short Description"
+msgstr ""
+
+#: includes/custom_widgets.php:52
+msgid "Read More Text (optional)"
+msgstr ""
+
+#: includes/custom_widgets.php:56
+msgid "Read More URL (optional)"
+msgstr ""
+
+#: includes/custom_widgets.php:106
+msgid "Title:"
+msgstr ""
+
+#: includes/custom_widgets.php:110
+msgid "Address:"
+msgstr ""
+
+#: includes/custom_widgets.php:114
+msgid "Email address:"
+msgstr ""
+
+#: includes/custom_widgets.php:118
+msgid "Phone number:"
+msgstr ""
+
+#: includes/custom_widgets.php:122
+msgid "Fax number:"
+msgstr ""
+
+#: includes/custom_widgets.php:209
+msgid "Custom RSS feed"
+msgstr ""
+
+#: includes/custom_widgets.php:213
+msgid "Facebook"
+msgstr ""
+
+#: includes/custom_widgets.php:217
+msgid "Twitter username (without @)"
+msgstr ""
+
+#: includes/custom_widgets.php:221
+msgid "Flickr"
+msgstr ""
+
+#: includes/custom_widgets.php:225
+msgid "Instagram"
+msgstr ""
+
+#: includes/custom_widgets.php:229
+#, fuzzy
+msgid "Linkedin"
+msgstr "链接"
+
+#: includes/custom_widgets.php:233
+msgid "Google Plus"
+msgstr ""
+
+#: includes/custom_widgets.php:237
+msgid "Pinterest"
+msgstr ""
+
+#: includes/custom_widgets.php:241
+msgid "YouTube"
+msgstr ""
+
+#: includes/custom_widgets.php:245
+msgid "Vimeo"
+msgstr ""
+
+#: includes/custom_widgets.php:249
+msgid "Tumblr"
+msgstr ""
+
+#: includes/custom_widgets.php:253
+msgid "Bloglovin"
+msgstr ""
+
+#: includes/modules.php:161
+msgid "Top Menu"
+msgstr ""
+
+#: includes/modules.php:225
+msgid "Read more..."
+msgstr ""
+
+# @ ace
+#: includes/modules.php:316
+msgid "Please enable referrers in your browser."
+msgstr ""
+
+# @ ace
+#: includes/modules.php:326
+msgid "ago"
+msgstr ""
+
+# @ ace
+#: includes/modules.php:338
+#, php-format
+msgid "<h6>%s</h6>"
+msgstr ""
+
+# @ ace
+#: includes/modules.php:339
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+# @ ace
+#: includes/modules.php:339
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/modules.php:341
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+# @ ace
+#: includes/modules.php:359
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/modules.php:435
+msgid "Home"
+msgstr ""
+
+#: includes/modules.php:452
+msgid "Archive by category &#39;"
+msgstr ""
+
+#: includes/modules.php:528
+msgid "Search results for &#39;"
+msgstr ""
+
+#: includes/modules.php:532
+msgid "Posts tagged &#39;"
+msgstr ""
+
+#: includes/modules.php:540
+msgid "Articles posted by "
+msgstr ""
+
+#: includes/modules.php:550
+msgid "Page"
+msgstr ""
+
+#: includes/modules.php:564
+msgid "Pages:"
+msgstr ""
+
+#: includes/modules.php:569
+msgid "Next page"
+msgstr ""
+
+#: includes/modules.php:570
+msgid "Previous page"
+msgstr ""
+
+#: includes/modules.php:603
+msgid "Previous"
+msgstr ""
+
+# @ ace
+#: includes/modules.php:604
+msgid "Next"
+msgstr ""
+
+#: layouts/page_sitemap.php:27
+msgid "Pages"
+msgstr ""
+
+#: layouts/page_sitemap.php:33
+msgid "Categories"
+msgstr ""
+
+#: layouts/related.php:2
+msgid "You Might Also Like"
+msgstr ""
+
+#~ msgid "Theme color"
+#~ msgstr "颜色"

@@ -1,0 +1,443 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"section",
+				"section-5"
+			],
+			[
+				"conte",
+				"content-box"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"l",
+				"list-style"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"des",
+				"designer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wp-content/themes/sora new/library/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 22506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/sora new/library/css/sora_style.css",
+			"settings":
+			{
+				"buffer_size": 12548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/sora new/header.php",
+			"settings":
+			{
+				"buffer_size": 5263,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/section-treatments.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/page.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/header.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/dorothy/footer.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/section-treatments-tabs.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora_magic/header.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora_magic/library/js/scripts.js",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/js/scripts.js",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/js/scriptspush.js",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora_magic/library/css/sora_style.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora_magic/library/bones.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora_magic/page.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora_magic/style.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/bones.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/header-no-menu.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/style.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/css/sora_style.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/js/scrollview.js",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/section.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/functions.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/library/css/style_durban.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/library/css/style.css",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/page.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/footer.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora theme/header.php",
+		"/Library/WebServer/Documents/sora/wp-content/themes/sora new/library/css/editor-style.css",
+		"/Library/WebServer/Documents/Sorahtml_files/css",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/page-eventsnorefactor.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/page-eventstrytorefactor.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/content-list.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/content.php",
+		"/Library/WebServer/Documents/london/wp-content/themes/dorothy/archive_old.php",
+		"/Library/WebServer/Documents/Assembly/dorothy/style.css",
+		"/Library/WebServer/Documents/Assembly/dorothy/footer.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"form",
+			"moz",
+			"main-container",
+			"container",
+			"content",
+			"treatments",
+			"0",
+			"-170",
+			"background:rgb(245, 245, 245)",
+			"book ",
+			".book ",
+			"book",
+			"logo",
+			"parallax4",
+			"logo\n",
+			"*/\n",
+			"section",
+			"treat",
+			"slicknav",
+			"md",
+			"bo",
+			"book",
+			"nav-",
+			"book-",
+			"book",
+			"mobile",
+			"jQ",
+			"logo\n",
+			"#logo\n",
+			"emp\n",
+			"fixed\n",
+			"}\n",
+			"before",
+			"after",
+			"settings",
+			"aferMove:",
+			"aferMove",
+			"afer",
+			"sectionContainer",
+			"after",
+			"afterMove",
+			"page-area",
+			"600",
+			"logo",
+			"//    ",
+			"background",
+			"80px",
+			"fixed",
+			"boot",
+			"header",
+			"nav",
+			"hover",
+			"gal",
+			"sl",
+			"gal",
+			"?>\n",
+			"get",
+			"get_",
+			"get_field",
+			"}",
+			"end",
+			"wp_query",
+			"Event",
+			"Donation"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"content-box",
+			"-20",
+			"sm",
+			"page-area-section",
+			"Designer",
+			"Event"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/sora new/library/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 22506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4530,
+								4613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/sora new/library/css/sora_style.css",
+					"settings":
+					{
+						"buffer_size": 12548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2600,
+								887
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/sora new/header.php",
+					"settings":
+					{
+						"buffer_size": 5263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1937,
+								5261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true
+}
