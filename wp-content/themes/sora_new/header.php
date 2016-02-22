@@ -95,10 +95,12 @@
 					    					'fallback_cb' => ''                             // fallback function (if there is one)
 											)); */ ?>
 											<ul id="menu" class="menu cf">
-												<li class="menu_about"><a href="#section-2">About Us</a></li>
-												<li class="menu_treatments"><a href="#section-3">Treatments</a></li>
-												<li class="menu_prices"><a href="#section-4">Prices</a></li>
 												<li class="menu_why"><a href="#section-5">Why Sora?</a></li>
+												<!--<li class="menu_about"><a href="#section-2">About Us</a></li>-->
+												<li class="menu_conditions"><a href="#section-3">Conditions</a></li>
+												<li class="menu_treatments"><a href="#section-3-b">Treatments</a></li>
+												<li class="menu_prices"><a href="#section-4">Prices</a></li>
+												
 												<li class="menu_contact" ><a href="#section-6">Contact</a></li>
 												<li class="menu_booking"><a href="#section-7">Make a Booking</a></li>
 											</ul>

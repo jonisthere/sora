@@ -13,7 +13,7 @@ $section = new WP_Query(array(
 <?php while ($section->have_posts()) : $section->the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 		<section class="entry-content">
-			<h2 class="section-title">jlhkh</h2>
+			<h2 class="section-title"><?php the_title(); ?></h2>
 			<?php 
 			 the_content();
 			?>
@@ -28,24 +28,23 @@ $section = new WP_Query(array(
 					    <?php $x = 1; ?>
 						<?php while(the_repeater_field('conditions', 6)): ?>
 							<li <?php echo  ($x == 1 ? 'class="active"' : '') ?>>
-					          <a href="#" rel="#tab_<?php echo $x ?>_contents" class="tab"></a>
+					          <a href="#" rel="#tab_<?php echo $x ?>_contents" class="tab"><?php echo get_sub_field('condition_title'); ?></a>
 					        </li>
 					    	<?php $x++;	?>
 						<?php endwhile; ?>
-					    <div style="clear:both"></div>
 			        </ul>
-			    
+			    	<div style="clear:both"></div>
 		         
 			        <!-- Tab 1 Contents -->
-		        <?php $x = 1; ?>
+		        <?php $y = 1; ?>
 		        <?php while(the_repeater_field('conditions', 6 )): ?>
-					<div id="tab_<?php echo $x ?>_contents" class="tab_contents <?php echo  ($x == 1 ? 'class="tab_contents_active"' : '') ?>">
+					<div id="tab_<?php echo $y ?>_contents" class="tab_contents <?php echo  ($y == 1 ? 'tab_contents_active' : '') ?>">
 			            <div class="">
-							<h2><?php echo get_sub_field('condition_title', 6 ); ?></h2>
-							<p><?php echo get_sub_field('condition_text', 6 ); ?></p>
+							<h3><?php echo get_sub_field('condition_title'); ?></h3>
+							<p><?php echo get_sub_field('conditional_text' ); ?></p>
 						</div>	
 			        </div>
-		    		<?php $x++; ?>
+		    		<?php $y++; ?>
 			    <?php endwhile; ?>
 			<?php endif; ?> 
 		        

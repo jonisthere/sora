@@ -33,9 +33,6 @@ $section = new WP_Query(array(
 			 	the_content();
 
 			endif; ?>
-			<div class="social">
-				this is the social eleement
-			</div>
 		</section>
 	</article>											
 <?php endwhile; ?>

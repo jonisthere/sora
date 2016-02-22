@@ -157,37 +157,41 @@ $(window).scroll(function(){
 
   $(".menu-logo").click(function(e) {
     e.preventDefault();
-    scrollToAnchor('top', -60);
+    scrollToAnchor('top', -160);
   });
   $(".menu_about").click(function(e) {
     e.preventDefault();
-    scrollToAnchor('about-us', -60);
+    scrollToAnchor('about-us', -160);
   });
   $(".menu_treatments").click(function(e) {
     e.preventDefault();
-    scrollToAnchor('treatments', -60 );
+    scrollToAnchor('treatments', -160 );
+  });
+  $(".menu_conditions").click(function(e) {
+    e.preventDefault();
+    scrollToAnchor('conditions', -160 );
   });
   $(".menu_prices").click(function(e) {
     e.preventDefault();
-    scrollToAnchor('prices', -60);
+    scrollToAnchor('prices', -160);
   });
   $(".menu_why").click(function(e) {
     e.preventDefault();
-    scrollToAnchor('why', -60);
+    scrollToAnchor('why', -160);
   });
   $(".menu_contact").click(function(e) {
     e.preventDefault();
-    scrollToAnchor('contact', -60);
+    scrollToAnchor('contact', -160);
   });
   $(".menu_booking").click(function(e) {
     e.preventDefault();
-    scrollToAnchor('booking', -60);
+    scrollToAnchor('booking', -160);
   });
   $(".menu_booking").hide();
 
-  $('.section-1, .section-2, .section-3, .section-4, .section-5, .section-6').css({
+  /*$('.section-1, .section-2, .section-3, .section-4, .section-5, .section-6').css({
   'padding-top': '40px'
-});
+});*/
 
 
     
@@ -218,34 +222,17 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
-
-$(function() {
-  var url = 'http://localhost/sora/';
-  //preload images 
-  var lips = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/lips.png');
-  var forehead = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/forehead.png');
-  var nosebridge = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/nose-bridge.png');
-  var smokerslines = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/smokers-lines.png');
-  var TopNosegarbella = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/Top-Nose-garbella.png');
-  var cheeks = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/cheeks.png');
-  var eyewrinkle = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/eye-wrinkle.png');
-  var nasiolabial = $('<img />').attr('src', url + 'wp-content/themes/sora%20new/library/images/treatments/nasio-labial.png');
-  
-  var lips_content = $('.Lips').html();
-  var eye_wrinkle_content = $('.eye_wrinkle').html();
-  $(".treatment-overlays").mousemove( function(e) {
+/*$(".treatment-overlays").mousemove( function(e) {
     var offset = $(this).offset();
     var relativeX = (e.pageX - offset.left);
     var relativeY = (e.pageY - offset.top);
-    console.log("X: " + relativeX + "  Y: " + relativeY);
+    //console.log("X: " + relativeX + "  Y: " + relativeY);
 
     
     if (relativeX > 70 && relativeX < 230 && relativeY < 140  ) {
       $('.treatment-overlays img').replaceWith(forehead);
+
+      console.log(forehead);
     }
     if (relativeX < 170 && relativeX > 130 && relativeY > 141 && relativeY < 201  ) {
       $('.treatment-overlays img').replaceWith(TopNosegarbella);
@@ -271,10 +258,103 @@ $(function() {
       $('.treatment-overlays img').replaceWith(lips);
       //$('.treatment-content-area').fadeOut();
       $('.treatment-content-area').html(lips_content)
-    }
-  });
-});
+    } */
 
+
+
+
+$(function() {
+  var url = 'http://sora.local/';
+
+  
+
+  var crows_feet =  $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/face_images/Crows-Feet.png');
+  var forehead = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/face_images/Forehead.png');
+  var frown = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/face_images/Frown-Lines.png');
+  var marionette = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/face_images/Marionette-Lines.png');
+  var nose = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/face_images/Nose-To-Mouth.png');
+  var lips = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/face_images/Thin-Lips.png');
+  var general = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/face_images/General-Skin.png');
+    
+  
+
+
+  var eyewrinkle = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/eye-wrinkle.png');
+  var nasiolabial = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/nasio-labial.png');
+  var lips = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/lips.png');
+  
+  var lips_content = $('.Lips').html();
+  var eye_wrinkle_content = $('.eye_wrinkle').html();
+  
+  
+
+  $('.face_1').hover(function(){
+    $('.treatment-overlays img').replaceWith(forehead);
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+      $('.treament-text-list').find('#forehead_lines').fadeIn().addClass('active');
+    });
+    
+  }, function(){
+
+  });
+
+  $('.face_2').hover(function(){
+    $('.treatment-overlays img').replaceWith(frown);
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+      $('.treament-text-list').find('#frown').fadeIn().addClass('active');
+    });
+    
+  }, function(){
+
+  });
+
+  $('.face_3, .face_4').hover(function(){
+    $('.treatment-overlays img').replaceWith(crows_feet);
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+      $('.treament-text-list').find('#crows_feet').fadeIn().addClass('active');
+    });
+  }, function(){
+    
+  });
+
+  $('.face_5, .face_6').hover(function(){
+    $('.treatment-overlays img').replaceWith(general);
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+      $('.treament-text-list').find('#skin_concerns').fadeIn().addClass('active');
+    });
+  }, function(){
+    
+  });
+
+  $('.face_9, .face_10').hover(function(){
+    $('.treatment-overlays img').replaceWith(marionette);
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+      $('.treament-text-list').find('#marionette').fadeIn().addClass('active');
+    });
+  }, function(){
+    
+  });
+
+  $('.face_7, .face_8').hover(function(){
+    $('.treatment-overlays img').replaceWith(nose);
+  }, function(){
+    
+  });
+
+  $('.face_11').hover(function(){
+    $('.treatment-overlays img').replaceWith(lips);
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+      $('.treament-text-list').find('#thin_lips').fadeIn().addClass('active');
+    });
+  }, function(){
+    
+  });
+
+  
+
+  
+
+});
 }); /* end of as page load scripts */
 
 /*
