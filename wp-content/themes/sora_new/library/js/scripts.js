@@ -202,7 +202,7 @@ $(document).ready(function(){
 
  // Set up a listener so that when anything with a class of 'tab' 
  // is clicked, this function is run.
-   $('.tab').click(function (event) {
+$('.tab').click(function (event) {
   event.preventDefault()
   // Remove the 'active' class from the active tab.
   $('li.active')
@@ -279,12 +279,12 @@ $(function() {
   
 
 
-  var eyewrinkle = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/eye-wrinkle.png');
-  var nasiolabial = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/nasio-labial.png');
-  var lips = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/lips.png');
+  //var eyewrinkle = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/eye-wrinkle.png');
+  //var nasiolabial = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/nasio-labial.png');
+  //var lips = $('<img />').attr('src', url + 'wp-content/themes/sora_new/library/images/treatments/lips.png');
   
-  var lips_content = $('.Lips').html();
-  var eye_wrinkle_content = $('.eye_wrinkle').html();
+  //var lips_content = $('.Lips').html();
+  //var eye_wrinkle_content = $('.eye_wrinkle').html();
   
   
 
@@ -523,7 +523,7 @@ $(function() {
 
         $('html, body').animate({
           scrollTop: $(".treatments_content-box").offset().top - 200
-      }, 2000);
+      }, 1000);
     })
     $('.treatment-title li').on('click', function () {
         $(this).parent().find('.active').removeClass('active');

@@ -8,7 +8,15 @@
 				<div class="col-xs-12">
 					<div class="logo-container">
 						<img src="<?php echo get_template_directory_uri();?>/library/images/Logo.png">
+						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<div class="home-page-strapline">
+							<?php the_content(); ?>
+						</div>
+						<?php endwhile; ?>
+						<?php endif; ?>
 					</div>
+
+					
 				</div>
 			</div>
 		<!-- //- main content area -->
@@ -23,8 +31,7 @@
 				<div class="col-xs-12">
 					<div class="content-box left">
 						<div class="">
-						<?php 
-							hm_get_template_part( 'section', [ 'id' => 10 ] );	 ?>
+						<?php hm_get_template_part( 'section', [ 'id' => 10 ] ); ?>
 						</div>
 					</div>
 				</div>
@@ -285,7 +292,10 @@
 								      }
 								      google.maps.event.addDomListener(window, 'load', initialize);
 								    </script>
+								<h2 class="section-title"><?php echo get_field('area_2_title_', 12) ?></h2>
+								<?php echo get_field('area_2_text', 12) ?>
 								</div>
+
 						</div>
 					</div>
 				</div>
