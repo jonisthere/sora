@@ -60,7 +60,7 @@
 						<div class="treaments-img">
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/face_images/Face.png">
 							<div class="treatment-overlays">
-								<img src="<?php echo get_template_directory_uri();?>/library/images/treatments/">
+								<img>
 								<div class="face_1">
 								</div>
 								<div class="face_2">

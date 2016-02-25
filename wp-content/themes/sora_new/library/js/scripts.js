@@ -534,5 +534,84 @@ $(function() {
         $('.treatment-text').find('.active').removeClass('active');
         li.addClass('active');
     })
-  
+
+
+      /*$(document).on( 'scroll', function(){
+        var section2 = $(".section-2").scrollTop();
+        var section3 = $(".section-3").scrollTop();
+
+
+        console.log(section2, section3)
+    
+      });*/
+
+ 
+
+      var header_bar = $('.header-banner-color');
+      var mobile_bar = $('.slicknav_menu');
+      $(document).scroll(function() {
+
+
+          height_it = $(document).scrollTop();
+          console.log(height_it);
+         
+
+        if ($(document).scrollTop() < 900) {
+          header_bar.css({'background': '#f2f6d4'});
+          mobile_bar.css({'border-top': '#f2f6d4'});
+    
+
+
+        } else if ($(document).scrollTop() < 1800) {
+          header_bar.css({'background': '#faf6ea'});
+          mobile_bar.css({'border-top': '#faf6ea'});
+        }
+        else if ($(document).scrollTop() < 2700) {
+          header_bar.css({'background': '#FFFFE6'});
+          mobile_bar.css({'border-top': '#FFFFE6'});
+        } 
+        else if ($(document).scrollTop() < 3600) {
+          header_bar.css({'background': '#ecfbf4'});
+          mobile_bar.css({'border-top': '#ecfbf4'});
+        }
+        else if ($(document).scrollTop() < 4500) {
+          header_bar.css({'background': '#fbf8ec'});
+          mobile_bar.css({'border-top': '#fbf8ec'});
+        }
+        else if ($(document).scrollTop() < 5400) {
+          header_bar.css({'background': '#dfecdb'});
+          mobile_bar.css({'border-top': '#dfecdb'});
+        }
+        else if ($(document).scrollTop() < 6300) {
+          header_bar.css({'background': '#ffffe8'});
+          mobile_bar.css({'border-top': '#ffffe8'});
+        } 
+        else if ($(document).scrollTop() < 7100) {
+          header_bar.css({'background': '#ffffe8'});
+          mobile_bar.css({'border-top': '#ffffe8'});
+        }
+
+      });
+        
+   /* .section-1 {
+      background-color: ;
+    }
+    .section-5 {
+      background-color: ;
+    }
+    .section-3-b {
+      background-color: ;
+    }
+    .section-4 {
+      background-color: ;
+    }
+
+    .section-6 {
+      background-color: #dfecdb;
+    }
+    .section-7 {
+
+      background-color: #ffffe8;
+    }
+  */
 })(jQuery);

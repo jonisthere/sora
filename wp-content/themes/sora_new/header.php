@@ -42,14 +42,16 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<div id='menu-mob'></div>
-		<div id="mobile-logo"class="h1">
-			<h1>
-				<a class="menu-logo" href="<?php echo home_url(); ?>" rel="nofollow">
-					Sora Clinic
-				</a>
-			</h1>
+		<div id='menu-mob'>
+			<div id="mobile-logo"class="h1">
+				<h1>
+					<a class="menu-logo" href="<?php echo home_url(); ?>" rel="nofollow">
+						Sora Clinic
+					</a>
+				</h1>
+			</div>
 		</div>
+		
 		<div class="nav-bar-container">
 			<!-- nav row -->
 			<div class="nav-bar">

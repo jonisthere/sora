@@ -1010,16 +1010,8 @@ div.clear {
  }
 
  
-  .section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
-    padding-top: 80px;
-  }
-
-  .section-2, .section-4, {
-    background-color: rgb(221, 234, 217);
-  }
-  .section-3 , .section-5 {
-    background: rgb(255, 255, 230);
-  }
+  
+  
 }  
 
 @media (max-width:500px) {
@@ -1072,7 +1064,29 @@ div#map-canvas {
 }
     
     
-    
+.section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
+  padding-top: 80px;
+}
+.section-1 {
+  background-color: #f2f6d4;
+}
+.section-5 {
+  background-color: #faf6ea;
+}
+.section-3-b {
+  background-color: #ecfbf4;
+}
+.section-4 {
+  background-color: #fbf8ec;
+}
+
+.section-6 {
+  background-color: #dfecdb;
+}
+.section-7 {
+
+  background-color: #ffffe8;
+}
     
     
     
