@@ -154,7 +154,6 @@
 			</div>
 		<!-- //- main content area -->
 		</div>
-		<div class="anystretch-under" style="left: 0px; top: 0px; position: absolute; overflow: hidden; z-index: -9999999; margin: 0px; padding: 0px; height: 100%; width: 100%;"></div>
 	</section>
 
 
@@ -164,7 +163,6 @@
 			<!-- main content area -->
 			<div class="row">
 				<div class="col-xs-12">
-					
 					<div class="treatments_content-box">
 						<?php 
 
@@ -219,9 +217,6 @@
 		</div>
 		<div class="anystretch-under" style="left: 0px; top: 0px; position: absolute; overflow: hidden; z-index: -9999999; margin: 0px; padding: 0px; height: 100%; width: 100%;"></div>
 	</section>
-
-
-
 	<section data-index=4 class="section section-4">
 		<a name="prices"></a>
 		<div class="container-fluid main-container">
@@ -292,10 +287,9 @@
 								      }
 								      google.maps.event.addDomListener(window, 'load', initialize);
 								    </script>
-								<h2 class="section-title"><?php echo get_field('area_2_title_', 12) ?></h2>
-								<?php echo get_field('area_2_text', 12) ?>
+									<h2 class="section-title"><?php echo get_field('area_2_title_', 12) ?></h2>
+									<?php echo get_field('area_2_text', 12) ?>
 								</div>
-
 						</div>
 					</div>
 				</div>
