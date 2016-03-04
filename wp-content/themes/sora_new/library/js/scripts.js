@@ -264,7 +264,7 @@ $('.tab').click(function (event) {
 
 
 $(function() {
-  var url = 'http://sora.local/';
+  var url = 'http://sora.pushpulldev.co.uk/';
 
   
 
@@ -574,8 +574,8 @@ $(function() {
           Position_3 = section_1 + section_5 + section_3 - 50; 
           Position_4 = section_1 + section_5 + section_3 + section_3_b - 80;
           console.log('p4',Position_4);
-          Position_5 = section_1 + section_5 + section_3 + section_3_b + section_4 - 100;
-          Position_6 = section_1 + section_5 + section_3 + section_3_b + section_4 + section_6 - 100 ;
+          Position_5 = section_1 + section_5 + section_3 + section_3_b + section_4 - 54;
+          Position_6 = section_1 + section_5 + section_3 + section_3_b + section_4 + section_6;
           Position_7 = section_1 + section_5 + section_3 + section_3_b + section_4 + section_6 + section_7 - 100;
       }
       sectionFinder();
@@ -585,7 +585,7 @@ $(function() {
         sectionFinder();
       });
 
-      console.log('positions', Position_1, Position_2, Position_3);
+      //console.log('positions', Position_1, Position_2, Position_3);
 
       var header_bar = $('.header-banner-color');
       var mobile_bar = $('.slicknav_menu');
