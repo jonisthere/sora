@@ -288,7 +288,7 @@
 								      google.maps.event.addDomListener(window, 'load', initialize);
 								    </script>
 									<h2 class="section-title"><?php echo get_field('contact_page_2nd_title', 12) ?></h2>
-									<?php echo get_field('contact_page_2nd_text', 12) ?>
+									<p><?php echo get_field('contact_page_2nd_text', 12) ?></p>
 								</div>
 						</div>
 					</div>

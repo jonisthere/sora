@@ -21881,3 +21881,8 @@
 127.0.0.1 - - [04/Mar/2016:00:13:35 +0000] "GET /wp-content/themes/sora_new/library/images/facebook.png HTTP/1.1" 404 252
 127.0.0.1 - - [04/Mar/2016:00:13:29 +0000] "GET / HTTP/1.1" 200 39531
 127.0.0.1 - - [04/Mar/2016:00:13:36 +0000] "GET /wp-content/themes/sora_new/library/js/scripts.js HTTP/1.1" 200 24373
+127.0.0.1 - - [04/Mar/2016:00:20:40 +0000] "GET / HTTP/1.1" 200 39429
+127.0.0.1 - - [04/Mar/2016:00:20:46 +0000] "GET /wp-content/themes/sora_new/library/js/scripts.js HTTP/1.1" 200 24547
+127.0.0.1 - - [04/Mar/2016:00:20:46 +0000] "GET /wp-content/themes/sora_new/library/images/linkedin.png HTTP/1.1" 404 252
+127.0.0.1 - - [04/Mar/2016:00:20:46 +0000] "GET /wp-content/themes/sora_new/library/images/twitter.png HTTP/1.1" 404 251
+127.0.0.1 - - [04/Mar/2016:00:20:46 +0000] "GET /wp-content/themes/sora_new/library/images/facebook.png HTTP/1.1" 404 252

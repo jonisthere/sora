@@ -337,6 +337,9 @@ $(function() {
 
   $('.face_7, .face_8').hover(function(){
     $('.treatment-overlays img').replaceWith(nose);
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(100, function(){
+      $('.treament-text-list').find('#nose').fadeIn().addClass('active');
+    });
   }, function(){
     
   });
