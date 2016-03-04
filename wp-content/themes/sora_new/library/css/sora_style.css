@@ -1036,19 +1036,18 @@ div.clear {
   
   
 }  
-
-@media (max-width:500px) {
-  .section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
-    padding-top: 40px;
-  }
+.section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
+
 
 
 .section-3 {
   background: rgb(255, 255, 230);
 }
 
-@media (min-width:500px) {
+@media (min-width:560px) {
   .section {
     min-height: 800px;
     padding-bottom: 160px;
