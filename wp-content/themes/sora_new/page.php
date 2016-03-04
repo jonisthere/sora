@@ -15,8 +15,6 @@
 						<?php endwhile; ?>
 						<?php endif; ?>
 					</div>
-
-					
 				</div>
 			</div>
 		<!-- //- main content area -->
@@ -86,8 +84,11 @@
 							</div>
 							
 							
-							<div class="hover">
-
+							<div class="hover-instructions">
+								<div class="">
+									<p><i>Hover over face for conditions</i></p>
+									<p class="general-conditions">Click here for general skin concerns</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -130,12 +131,10 @@
 								    	<?php $x++;	?>
 										<?php endwhile; ?>
 										</li>
-									<?php endif; ?> 
+									<?php endif; ?>
 									</ul>
 								</div>
-								<div class="">
-								
-								</div>
+
 							</section>
 						<?php endwhile; ?>
 						<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>

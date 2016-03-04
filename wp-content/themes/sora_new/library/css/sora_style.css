@@ -33,6 +33,21 @@ li a:active, li a:focus, li a:visited, li a:hover {
   border: none;
   color: #56534c;
 }
+.freight {
+  font-weight: 400;
+  font-family: "freight-display-pro";
+}
+
+.freight-bold {
+  font-style: italic;
+  font-weight: 700;
+  font-family: "freight-display-pro";
+}
+.freight-italic {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "freight-display-pro";
+}
 /* 
 
 Main menu - brandon grotesque regular 17  -   56534c
@@ -585,7 +600,10 @@ p.price-info {
   top:0;
   height:100%;
   width:100%;
+  cursor: pointer;
 }
+
+
 
 
 .treament-img img {
@@ -598,6 +616,12 @@ p.price-info {
 
 .treaments-img img {
   max-width: 400px;
+}
+
+.hover-instructions {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "freight-display-pro";
 }
 
 .face_1 {
@@ -1022,16 +1046,16 @@ div.clear {
 
 
 .section-3 {
-    background: rgb(255, 255, 230);
-  }
-
-
-.section {
-  min-height: 800px;
-  padding-bottom: 160px;
-  padding-top: 120px;
+  background: rgb(255, 255, 230);
 }
 
+@media (min-width:500px) {
+  .section {
+    min-height: 800px;
+    padding-bottom: 160px;
+    padding-top: 120px;
+  }
+}
 @media (min-width:1400px) {
   
   .section {
@@ -1084,7 +1108,6 @@ div#map-canvas {
   background-color: #dfecdb;
 }
 .section-7 {
-
   background-color: #ffffe8;
 }
     
