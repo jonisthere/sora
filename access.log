@@ -21874,3 +21874,10 @@
 127.0.0.1 - - [04/Mar/2016:00:01:29 +0000] "GET /wp-content/themes/sora_new/library/images/face_images/Frown-Lines.png HTTP/1.1" 304 -
 127.0.0.1 - - [04/Mar/2016:00:01:29 +0000] "GET /wp-content/themes/sora_new/library/images/face_images/Thin-Lips.png HTTP/1.1" 304 -
 127.0.0.1 - - [04/Mar/2016:00:01:29 +0000] "GET /wp-content/themes/sora_new/library/images/face_images/General-Skin.png HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2016:00:13:35 +0000] "GET /wp-content/themes/sora_new/library/css/sora_style.css HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2016:00:13:35 +0000] "GET /wp-content/themes/sora_new/library/images/Logo.png HTTP/1.1" 200 3427
+127.0.0.1 - - [04/Mar/2016:00:13:35 +0000] "GET /wp-content/themes/sora_new/library/images/linkedin.png HTTP/1.1" 404 252
+127.0.0.1 - - [04/Mar/2016:00:13:35 +0000] "GET /wp-content/themes/sora_new/library/images/twitter.png HTTP/1.1" 404 251
+127.0.0.1 - - [04/Mar/2016:00:13:35 +0000] "GET /wp-content/themes/sora_new/library/images/facebook.png HTTP/1.1" 404 252
+127.0.0.1 - - [04/Mar/2016:00:13:29 +0000] "GET / HTTP/1.1" 200 39531
+127.0.0.1 - - [04/Mar/2016:00:13:36 +0000] "GET /wp-content/themes/sora_new/library/js/scripts.js HTTP/1.1" 200 24373

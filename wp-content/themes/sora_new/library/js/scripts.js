@@ -290,7 +290,7 @@ $(function() {
 
   $('.face_1').hover(function(){
     $('.treatment-overlays img').replaceWith(forehead);
-    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(100, function(){
       $('.treament-text-list').find('#forehead_lines').fadeIn().addClass('active');
     });
     
@@ -300,7 +300,7 @@ $(function() {
 
   $('.face_2').hover(function(){
     $('.treatment-overlays img').replaceWith(frown);
-    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(100, function(){
       $('.treament-text-list').find('#frown').fadeIn().addClass('active');
     });
     
@@ -310,7 +310,7 @@ $(function() {
 
   $('.face_3, .face_4').hover(function(){
     $('.treatment-overlays img').replaceWith(crows_feet);
-    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(100, function(){
       $('.treament-text-list').find('#crows_feet').fadeIn().addClass('active');
     });
   }, function(){
@@ -319,7 +319,7 @@ $(function() {
 
   $('.face_5, .face_6').hover(function(){
     $('.treatment-overlays img').replaceWith(general);
-    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(100, function(){
       $('.treament-text-list').find('#skin_concerns').fadeIn().addClass('active');
     });
   }, function(){
@@ -328,7 +328,7 @@ $(function() {
 
   $('.face_9, .face_10').hover(function(){
     $('.treatment-overlays img').replaceWith(marionette);
-    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(100, function(){
       $('.treament-text-list').find('#marionette').fadeIn().addClass('active');
     });
   }, function(){
@@ -343,7 +343,7 @@ $(function() {
 
   $('.face_11').hover(function(){
     $('.treatment-overlays img').replaceWith(lips);
-    $('.treament-text-list').find('.active').removeClass('active').fadeOut(400, function(){
+    $('.treament-text-list').find('.active').removeClass('active').fadeOut(100, function(){
       $('.treament-text-list').find('#thin_lips').fadeIn().addClass('active');
     });
   }, function(){
